@@ -1,0 +1,55 @@
+# Ignore Maven target directory
+/target/
+
+# Ignore build output (IDE-specific)
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Maven build files
+dependency-reduced-pom.xml
+build.log
+
+# Ignore Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE-specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS-specific files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*.swp
+
+# Logs and temporary files
+*.
